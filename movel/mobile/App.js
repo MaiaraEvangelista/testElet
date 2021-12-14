@@ -24,11 +24,9 @@ export default function Stack() {
         <AuthSatck.Screen name='UploadImage' component={UploadImage} />
         <AuthSatck.Screen name='formLoja' component={form} />
         <AuthSatck.Screen name='teste' component={Verificacao} />
-        
  
       </AuthSatck.Navigator>
     </NavigationContainer>
-
     
   );
 }

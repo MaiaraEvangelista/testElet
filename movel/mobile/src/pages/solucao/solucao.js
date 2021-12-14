@@ -22,7 +22,7 @@ export default class Solucao extends Component {
         this.setState({
             modalVisible1 : true,
             titulo : 'Sistema de troca',
-            txt: 'sistema de troca é legal'
+            txt: '   O sistema de troca é simples, você leva seu aparelho danificado para um ponto de troca e recebe uma porcentagem de desconto em um novo aparelho, ajudando assim a evitar um descarte inadequado.'
         })
         
     }
@@ -32,7 +32,7 @@ export default class Solucao extends Component {
         this.setState({
             modalVisible1 : true,
             titulo : 'Desmontagem',
-            txt: 'desmonatagem é legal'
+            txt: 'No sistema de desmontagem também não existe complicação, você leva seu aparelho com mau funcionamento para um ponto de desmontagem de aparelhos, ondes as peças vão ser retiradas e analisadas para saber quais ainda podem ser reutilizadas, ou, quais devem ser encaminhadas para locais que utilizem esses materiais de outras formas.'
         })
     }
 
@@ -41,7 +41,7 @@ export default class Solucao extends Component {
         this.setState({
             modalVisible1 : true,
             titulo : 'Monategem',
-            txt : 'montagem é lgl'
+            txt : 'No sistema de montagem, todas as peças que foram retiradas de outros aparelhos e estão em bom estado, são reutilizadas em novos aparelhos, para voltarem a ter alguma funcionalidade.'
         })
     }
 
@@ -50,7 +50,7 @@ export default class Solucao extends Component {
         this.setState({
             modalVisible1 : true,
             titulo : 'venda',
-            txt : 'venda é lgl'
+            txt : 'No sistema de vendas o aparelho em bom estado, com nota da data da compra, e sem nenhum problema técnico, é comprado do cliente por uma empresa e revendido por um preço mais acessível para outros usuários.'
         })
     }
 
@@ -59,7 +59,7 @@ export default class Solucao extends Component {
         this.setState({
             modalVisible1 : true,
             titulo : 'Recolhimento',
-            txt : 'recolhimento é lgl'
+            txt : 'No sistema de recolhimento, todas as partes dos aparelhos coletados são separados, analisados, vendo qual ainda possui um bom funcionamento (para ser reutilizado), e qual já não tem mais serventia (que vão ser encaminhados para empresas parceiras que vão reutilizar seus materiais de formas diversas), evitando que as peças sejam descartadas de maneira incorreta.'
         })
     }
 
